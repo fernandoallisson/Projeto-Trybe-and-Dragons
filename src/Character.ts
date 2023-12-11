@@ -1,7 +1,7 @@
 import Archetype, { Mage } from './Archetypes';
 import Energy from './Energy';
 import Fighter from './Fighter';
-import SimpleFighter from './Fighter/SimpleFigther';
+import SimpleFighter from './Fighter/SimpleFighter';
 import Race, { Elf } from './Races';
 import randomNumber from './Utils/randomNumber';
 
