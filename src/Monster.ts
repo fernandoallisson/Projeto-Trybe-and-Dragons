@@ -1,6 +1,6 @@
 import { SimpleFighter } from './Fighter';
 
-export default class Monter implements SimpleFighter {
+export default class Monster implements SimpleFighter {
   private _lifePoints: number;
   private _strength: number;
 
@@ -28,5 +28,9 @@ export default class Monter implements SimpleFighter {
 
   attack(enemy: SimpleFighter): void {
     enemy.receiveDamage(this._lifePoints);
+  }
+
+  setLifePoints(value: number): void {
+    this._lifePoints = value;
   }
 }
